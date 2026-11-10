@@ -21,7 +21,7 @@ spec:
         valueFiles:
           - $values/platform/observability/values/grafana.yaml
     # Values versionados neste repositorio
-    - repoURL: https://github.com/devjean96/togglemaster-gitops.git
+    - repoURL: https://github.com/nicolimf/togglemaster-gitops.git
       targetRevision: main
       ref: values
   destination:

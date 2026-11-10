@@ -8,7 +8,7 @@ metadata:
 spec:
   description: ToggleMaster applications managed exclusively from Git
   sourceRepos:
-    - https://github.com/devjean96/togglemaster-gitops.git
+    - https://github.com/nicolimf/togglemaster-gitops.git
   destinations:
     - server: https://kubernetes.default.svc
       namespace: togglemaster-homolog

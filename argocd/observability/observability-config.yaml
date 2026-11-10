@@ -13,7 +13,7 @@ spec:
   project: observability
   # Dashboards, regras de alerta, contact points e o self-healer.
   source:
-    repoURL: https://github.com/devjean96/togglemaster-gitops.git
+    repoURL: https://github.com/nicolimf/togglemaster-gitops.git
     targetRevision: main
     path: platform/observability/config
   destination:

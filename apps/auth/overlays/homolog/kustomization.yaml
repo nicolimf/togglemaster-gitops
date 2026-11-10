@@ -13,8 +13,8 @@ labels:
     includeTemplates: true
 images:
   - name: togglemaster-auth-service
-    newName: 434271199872.dkr.ecr.us-east-1.amazonaws.com/togglemaster-homolog/auth-service
-    newTag: sha-ef0973c608dc
+    newName: 058264218158.dkr.ecr.us-east-1.amazonaws.com/togglemaster-homolog/auth-service
+    newTag: fase4-chaos
 patches:
   - target:
       kind: ConfigMap

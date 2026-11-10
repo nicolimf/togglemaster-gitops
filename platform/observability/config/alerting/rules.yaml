@@ -61,6 +61,6 @@ groups:
             O servico {{ index .Labels "service_name" }} esta respondendo com erro em
             {{ printf "%.1f" .Values.A.Value }}% das requisicoes nos ultimos 2 minutos.
             Acao automatica: o self-healer executa rollout restart do deployment.
-          runbook_url: https://github.com/devjean96/togglemaster-gitops/blob/main/docs/runbook-http-5xx.md
+          runbook_url: https://github.com/nicolimf/togglemaster-gitops/blob/main/docs/runbook-http-5xx.md
         dashboardUid: togglemaster-overview
         panelId: 15

@@ -33,7 +33,7 @@ spec:
     spec:
       project: togglemaster
       source:
-        repoURL: https://github.com/devjean96/togglemaster-gitops.git
+        repoURL: https://github.com/nicolimf/togglemaster-gitops.git
         targetRevision: main
         path: '{{.path}}/overlays/homolog'
       destination:
